@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+/* --------------------------------------Introduction Section Text------------------------------- */
+
+.introduction h3{
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.introduction h2{
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.introduction h4{
+  margin-top: 5px;
+  font-size: 20px;
+  color: wheat;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.introduction p{
+  color: wheat;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.introduction p a{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.typing-demo {
+  width: 11ch;
+  animation: typing 2.5s steps(13), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid white;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.typing-demo h2{
+  background-clip: text;
+  color: #00acee;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.container {
+  position: relative;
+  display: inline-table;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+
+/* --------------------------------------Introduction Section Text------------------------------- */
+
+/* -----------------------------------------Education Section Text---------------------------------- */
+
+.media h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+.media p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+}
+.d-flex p{
+  color: #8E8C8C;
+}
+
+.timeline ul{
+  list-style: none;
+}
+
+.timeline ul li span{
+  height: 10px;
+  width: 10px;
+  background: darkorange;
+  border-radius: 50%;
+  position: absolute;
+  left: 49%;
+  margin-top: 10px;
+}
+/* -----------------------------------------Education Section Text---------------------------------- */
+
+/* ------------------------------My Skill, Hobbies & Interests Section Text----------------------- */
+
+.slogo i{
+  margin-right: 35px;
+}
+
+.slogo{
+  margin-top: 30px;
+}
+
+.hobbies p{
+  color: wheat;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hobbies p a{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.hobbies figure b{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* figure span{
+  margin-right: 13px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 2px 6px 2px 6px;
+} */
+/* ------------------------------My Skill, Hobbies & Interests Section Text----------------------- */
+
+/* -----------------------------------------Contact Section Text---------------------------------- */
+
+#contact a{
+  text-decoration: none;
+  color: white;
+}
+
+#contact b{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+#contact h4{
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+}
+
+#contact p{
+  margin-top: 0px;
+  font-weight: lighter;
+  color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* -----------------------------------------Contact Section Text---------------------------------- */
+
+
+/* -------------------------------------Socila media text decoration----------------------------- */
+
+#social a{
+  text-decoration: none;
+  color: wheat;
+  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+}
+
+#insta{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#twi{
+  color: #00acee;
+}
+
+#in{
+  color: #0077b5;
+}
+
+#git{
+  color: #6A6868;
+}
+
+.linksocial{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+/* -------------------------------------Socila media text decoration----------------------------- */

@@ -1,0 +1,79 @@
+ body{
+  background: white;
+ }
+
+ .box{
+  font-family: "Archivo Black", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .words {
+    color: white;
+    font-size: 0;
+    line-height: 1.5;
+  }
+  
+  .words span {
+    font-size: 5rem;
+    font-weight: 900;
+    display: inline-block;
+    animation: move 6s ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+    50% {
+      text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+    }
+    100% {
+      transform: translate(30%, 0);
+    }
+  }
+  
+  .words span:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .words span:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  .words span:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  
+  .words span:nth-child(5) {
+    animation-delay: 2s;
+  }
+  div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+  }
+
+  .enterlink{
+    background-image: linear-gradient(to right, #00c3ff 0%, #ffff1c 51%, #00c3ff 100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .enterlink:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }

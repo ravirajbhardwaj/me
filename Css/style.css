@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+main {
+    display: grid;
+    position: relative;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+figure{
+    text-align: center;
+}
+
+#flex{
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+#raviimg{
+    border-radius: 10px;
+    width: 360px;
+    border: 2px solid white;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #00c3ff 0%, #ffff1c  51%, #00c3ff  100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    background-size: 200% auto;
+    color: black;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.timeline{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#contact{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.media{
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.media-body{
+    margin-left: 50px;
+}
